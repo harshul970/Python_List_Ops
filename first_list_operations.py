@@ -25,5 +25,7 @@ list_reverse = l1[::-1]
 print(list_reverse)
 
 ## Calculating square of each list number
-list_sqr = [ i*i for i in l1]
+list_sqr = []
+for i in l1:
+    list_sqr.append(i*i)
 print(list_sqr)
